@@ -2,5 +2,5 @@
 
 void HelloFunc()
 {
-	printf("Hello World");
+	printf("Hello World from t4 %s\n", __FUNCTION__);
 }
