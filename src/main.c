@@ -1,4 +1,4 @@
-#include "demo.h"
+#include "hello.h"
 int main()
 {
 	HelloFunc();
