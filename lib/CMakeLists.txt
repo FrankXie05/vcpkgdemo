@@ -1,4 +1,4 @@
-add_library(hello)
+add_library(hello SHARED hello.c)
 set_target_properties(hello PROPERTIES OUTPUT_NAME "hello")
 
 install(TARGETS hello
