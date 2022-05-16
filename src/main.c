@@ -3,5 +3,5 @@
 int main()
 {
 	HelloFunc();
-	reture 0;
+	return 0;
 }
