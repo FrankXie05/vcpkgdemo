@@ -1,1 +1,1 @@
-void HelloFunc()
+void HelloFunc();
