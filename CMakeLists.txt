@@ -5,3 +5,5 @@ project(vcpkgdemo)
 
 add_subdirectory(lib)
 add_subdirectory(src bin)
+
+include (CPack)
