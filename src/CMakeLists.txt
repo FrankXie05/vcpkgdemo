@@ -1,4 +1,5 @@
 
 include_directories(${CMAKE_SOURCE_DIR}/lib)
-add_executable(main main.c)
-target_link_libraries(main hello_static)
+include_directories(${CMAKE_SOURCE_DIR}/src/bin)
+add_executable(main main.c "bin/dll.cpp")
+target_link_libraries(main hello_shared)
