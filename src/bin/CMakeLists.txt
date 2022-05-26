@@ -4,7 +4,6 @@ set_target_properties(hello_shared PROPERTIES OUTPUT_NAME "hello_dll")
 
 install (TARGETS hello_shared
   RUNTIME DESTINATION bin
-  LIBRARY DESTINATION lib
-  ARCHIVE DESTINATION lib)
+  ARCHIVE DESTINATION dll)
 
 install (FILES dll.h DESTINATION "include")
